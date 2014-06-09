@@ -21,6 +21,8 @@
 		6804B0E919345E3B003753B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6804B0CB19345E3B003753B1 /* UIKit.framework */; };
 		6804B0F119345E3B003753B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6804B0EF19345E3B003753B1 /* InfoPlist.strings */; };
 		6804B0F319345E3B003753B1 /* HAScrollExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6804B0F219345E3B003753B1 /* HAScrollExampleTests.m */; };
+		6804B0FE19345E8B003753B1 /* HAColorCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 6804B0FD19345E8B003753B1 /* HAColorCircle.m */; };
+		6804B10119345F07003753B1 /* HAScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6804B10019345F07003753B1 /* HAScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		6804B0EE19345E3B003753B1 /* HAScrollExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HAScrollExampleTests-Info.plist"; sourceTree = "<group>"; };
 		6804B0F019345E3B003753B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6804B0F219345E3B003753B1 /* HAScrollExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAScrollExampleTests.m; sourceTree = "<group>"; };
+		6804B0FC19345E8B003753B1 /* HAColorCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HAColorCircle.h; sourceTree = "<group>"; };
+		6804B0FD19345E8B003753B1 /* HAColorCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HAColorCircle.m; sourceTree = "<group>"; };
+		6804B0FF19345F07003753B1 /* HAScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HAScrollView.h; sourceTree = "<group>"; };
+		6804B10019345F07003753B1 /* HAScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HAScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,12 +118,13 @@
 		6804B0CD19345E3B003753B1 /* HAScrollExample */ = {
 			isa = PBXGroup;
 			children = (
-				6804B0D619345E3B003753B1 /* AppDelegate.h */,
-				6804B0D719345E3B003753B1 /* AppDelegate.m */,
-				6804B0D919345E3B003753B1 /* Main.storyboard */,
 				6804B0DC19345E3B003753B1 /* ViewController.h */,
 				6804B0DD19345E3B003753B1 /* ViewController.m */,
-				6804B0DF19345E3B003753B1 /* Images.xcassets */,
+				6804B0FC19345E8B003753B1 /* HAColorCircle.h */,
+				6804B0FD19345E8B003753B1 /* HAColorCircle.m */,
+				6804B0FF19345F07003753B1 /* HAScrollView.h */,
+				6804B10019345F07003753B1 /* HAScrollView.m */,
+				6804B0D919345E3B003753B1 /* Main.storyboard */,
 				6804B0CE19345E3B003753B1 /* Supporting Files */,
 			);
 			path = HAScrollExample;
@@ -126,6 +133,9 @@
 		6804B0CE19345E3B003753B1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6804B0DF19345E3B003753B1 /* Images.xcassets */,
+				6804B0D719345E3B003753B1 /* AppDelegate.m */,
+				6804B0D619345E3B003753B1 /* AppDelegate.h */,
 				6804B0CF19345E3B003753B1 /* HAScrollExample-Info.plist */,
 				6804B0D019345E3B003753B1 /* InfoPlist.strings */,
 				6804B0D319345E3B003753B1 /* main.m */,
@@ -249,9 +259,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6804B0FE19345E8B003753B1 /* HAColorCircle.m in Sources */,
 				6804B0DE19345E3B003753B1 /* ViewController.m in Sources */,
 				6804B0D819345E3B003753B1 /* AppDelegate.m in Sources */,
 				6804B0D419345E3B003753B1 /* main.m in Sources */,
+				6804B10119345F07003753B1 /* HAScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
